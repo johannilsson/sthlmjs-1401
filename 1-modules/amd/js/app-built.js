@@ -1,0 +1,1 @@
+define("even",[],function(){var e=function(e){return e%2===0};return e}),require(["even"],function(e){console.log(1,e(1)),console.log(2,e(2)),console.log(3,e(3)),console.log(4,e(4))}),define("app",function(){});

@@ -1,0 +1,1 @@
+define("even",[],function(){var e=function(e){return e%2===0};return e});

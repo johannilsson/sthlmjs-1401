@@ -1,0 +1,20 @@
+{
+  "name": "bower-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npm install && bower install && npm run build",
+    "build": "browserify index.js -t debowerify > bundle.js",
+    "watch-js": "watchify index.js -t debowerify -o bundle.js -v"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "debowerify": "~0.5.1"
+  },
+  "dependencies": {
+    "browserify": "~3.19.1"
+  }
+}
