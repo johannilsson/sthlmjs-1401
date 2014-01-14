@@ -4,7 +4,7 @@
 
 Talk at sthlm.js 2014-01-07, [http://www.meetup.com/sthlm-js/events/156429912](http://www.meetup.com/sthlm-js/events/156429912)
 
-[Slides at SlideShare](http://www.slideshare.net/johannilsson/dependencies-modules-browserif)
+[Slides at SlideShare](http://www.slideshare.net/johannilsson/dependencies-modules-browserify)
 
 ---
 
